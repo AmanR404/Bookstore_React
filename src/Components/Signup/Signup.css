@@ -1,0 +1,95 @@
+/* body{
+    background-color: #00000029;
+} */
+.outerBox{
+    width: 30vw;
+    height: 57vh;
+    margin: 21vh 20vw;
+    background-color: #F5F5F5;
+    border-radius: 16px;
+}
+.innerBox img{
+    width: 20.5vw;
+    height: 40vh;
+    border: 0.1px solid white;
+    border-radius: 220px;
+    margin-bottom: 4vh;
+}
+.innerBox{
+    height: 45vh;
+    padding: 4vh 5vh 0vh 5vh;
+}
+.innerBox span{
+    margin-left: 3vw;
+    font-weight: 500;
+}
+.secondOuterBox{
+    border: 0.5px solid rgb(201, 200, 200);
+    border-radius: 7px;
+    background-color: white;
+    width: 30vw;
+    height: 65vh;
+    margin: -82vh 45vw;
+    box-shadow: -0.7px 0.8px #888888
+}
+.secondInnerBox{
+    width: 22vw;
+    height: 55vh;
+    margin: 3.3vh 3.5vw;
+}
+.loginSignup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+    font-weight: 500;
+}
+.active{
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-decoration-color: #A03037;
+    text-decoration-thickness: 0.8vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+#login{
+    background-color: #A03037;
+    color: white;
+    width: 22vw;
+    height: 5vh;
+    border: 0.5px solid #A03037;
+    border-radius: 2px;
+}
+#orElem{
+    display: flex;
+}
+#socialButtons{
+    display: flex;
+    justify-content: space-between;
+}
+#fb{
+    width: 10vw;
+    background-color: #4266B2;
+    border: 0px solid blue;
+    border-radius: 2px;
+    color: white;
+    height: 5vh;
+}
+#google{
+    width: 10vw;
+    background-color: #E4E4E4;
+    border: 0px solid blue;
+    border-radius: 2px;
+    height: 5vh;
+}
+#forgot{
+    font-size: x-small;
+    text-align: end;
+   position: relative;
+   bottom: 3.1vh;
+}
+.hover:hover{
+    cursor: pointer;
+}

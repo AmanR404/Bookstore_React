@@ -1,0 +1,104 @@
+#tag{
+    margin-left: 13vw;
+    margin-top: 3vh;
+}
+#cartText{
+    font-weight: 630;
+}
+.mainBox{
+    width: 52vw;
+    margin-left: 15vw;
+    margin-top: 3.5vh;
+    /* height: 38%; */
+    display: flex;
+    flex-direction: column;
+}
+.upperCartBox{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+.upperCartBox span{
+    font-weight: 600;
+    font-size: large;
+}
+.cartData{
+    margin: 2vh 3vw;
+    height: 85vh;
+}
+.bookPayDetails{
+    display: flex;
+    flex-direction: column;
+}
+.bookPayDetails img{
+    width: 5vw;
+    height: 14vh;
+    margin-top: 2.5vh;
+}
+#place{
+    background-color: #3371B5;
+    color: white;
+    border: 0.5px solid #3371B5;
+    border-radius: 2px;
+    padding: 1.15vh 2vw;
+    margin-left: 74%;
+    margin-bottom: 1vh;
+}
+#summary{
+    display: flex;
+    line-height: 180%;
+}
+#internalSummary{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+}
+#summary h4{
+    line-height: 5%;
+    font-size: medium;
+}
+#auth{
+    font-size: small;
+    position: relative;
+    bottom: 1.8vh;
+}
+#rupee{
+    font-weight: 700;
+    position: relative;
+    bottom: 1vh;
+}
+.counterPart{
+    margin-top: 1vh;
+}
+#inc, #dec{
+    border-radius: 20px;
+    border: 0px solid #DBDBDB;
+    background-color: #f6f2f2;
+    height: 4vh;
+    width: 2vw;
+}
+#remove{
+    margin-left: 3.5vw;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+}
+.lastBox1{
+    width: 88%;
+    border: 0.5px solid #cfcdcd;
+    /* margin-top: 78vh; */
+    padding: 2.3vh 3vw;
+    color: #333232;
+}
+.lastBox2{
+    width: 88%;
+    border: 0.5px solid #cfcdcd;
+    margin-top: 2vh;
+    padding: 2.3vh 3vw;
+    color: #333232;
+}
+.counterPart span{
+    border: 0.3px solid #cfcdcd;
+    padding: 0vh 0.7vw;
+    margin: 0vh 0.4vw;
+}

@@ -1,0 +1,20 @@
+.orderSummary{
+    width: 52vw;
+    margin-top: 4vh;
+    border: 0.8px solid rgb(196, 193, 193);
+}
+.bookPayDetailsinsummary img{
+    width: 5vw;
+    height: 14vh;
+    margin-top: 2.5vh;
+}
+.bookPayDetailsinsummary{
+    display: flex;
+    margin-left: 2.5vw;
+    margin-top: 3vh;
+}
+#summaryInCart{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+}

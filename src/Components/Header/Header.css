@@ -1,0 +1,76 @@
+body{
+    background-color: white;
+}
+#nav{
+    height: 8vh;
+    width: 100vw;
+    background-color: #A03037;
+    color: white;
+}
+#nav img{
+    position: absolute;
+    left: 9vw;
+    top: 2vh;
+}
+.logo{
+    position: absolute;
+    left: 12vw;
+    top: 2.2vh;
+}
+#nav input{
+    width: 40vw;
+    height: 4vh;
+    margin-top: 1.6vh;
+    margin-left: 22vw;
+    padding-left: 1.5vw;
+}
+.cart{
+    position: absolute;
+    right: 13vw;
+    top: 1vh;
+}
+.cartSpan{
+    position: absolute;
+    right: 13vw;
+    top: 4.2vh;
+    font-size: small;
+}
+.person{
+    position: absolute;
+    right: 22vw;
+    top: 1vh;
+}
+.personSpan{
+    position: absolute;
+    right: 21.5vw;
+    top: 4.2vh;
+    font-size: small;
+}
+#popup{
+    display: flex;
+    flex-direction: column;
+    width: 13vw;
+    border: 1px solid grey;
+    border-radius: 4px;
+    z-index: 1;
+    color: black;
+    margin-left: 61.6vw;
+    background-color: white;
+}
+#popup span{
+    padding: 2vh 3vw;
+}
+#logout{
+    border: 1.5px solid #A03037;
+    color: #A03037;
+    margin: 1vw;
+    font-weight: 600;
+}
+#countButton{
+    background-color: white;
+    border-radius: 200px;
+    border: none;
+    position: relative;
+    left: 21vw;
+    bottom: 2vh;
+}

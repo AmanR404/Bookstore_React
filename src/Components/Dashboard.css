@@ -1,0 +1,16 @@
+#innerTagline{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 3vw;
+    margin-right: 6.5vw;
+}
+#innerTagline span{
+    font-weight: 600;
+    font-size: large;
+}
+#dropdown{
+    padding: 1vh;
+    width: 12vw;
+    border: 0.5px solid grey;
+    border-radius: 3px;
+}

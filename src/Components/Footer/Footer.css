@@ -1,0 +1,21 @@
+.footerContainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    width: 100vw;
+    height: 7vh;
+    background-color: #2E1D1E;
+    color: white;
+    margin-top: auto;
+    position: relative;
+    top: 20vh;
+
+}
+footer span{
+    position: relative;
+    top: 2vh;
+    left: 8vw;
+    font-size: small;
+}

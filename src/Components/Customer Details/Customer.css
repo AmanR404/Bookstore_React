@@ -1,0 +1,39 @@
+.customerDetails{
+    width: 52vw;
+    height: 62vh;
+    border: 1px solid rgb(194, 190, 190);
+    margin-top: 9.2vh;
+}
+.customerDetails h4{
+    margin-left: 2.5vw;
+}
+#address{
+    display: flex;
+    padding: 2.6vh 2vw;
+}
+.bigField{
+    width: 34.2vw;
+}
+.smallField{
+    width: 17vw;
+}
+.addressBtns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 2vw;
+}
+#continue{
+    background-color: #3371B5;
+    color: white;
+    border: 0.5px solid #3371B5;
+    border-radius: 2px;
+    padding: 1.15vh 2vw;
+}
+#addBtn{
+    padding: 1.15vh 0vw;
+    background-color: transparent;
+    border: 1.5px solid #A03037;
+    border-radius: 3px;
+    color: #A03037;
+}

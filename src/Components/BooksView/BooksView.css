@@ -1,0 +1,50 @@
+#booksPage{
+    width: 20vw;
+    display: inline-block;
+    margin: auto;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+}
+#apiData{
+    width: 20vw;
+    height: 50vh;
+    border: 0.5px solid grey;
+    display: inline-block;
+}
+#apiData img{
+    width: 10.2vw;
+    height: 27vh;
+    padding: 2vh 4.9vw;
+    background-color: #E2E2E2;
+}
+#apiText{
+    padding-left: 1.5vw;
+    padding-right: 6vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 2vh;
+    line-height: 10%;
+}
+#apiAuthor{
+    font-size: small;
+}
+#apiRating{
+    color: white;
+    background-color: #388E3C;
+    width: 4vw;
+    height: 3.75vh;
+    position: relative;
+    top: 2.5vh;
+}
+#outOf{
+    position: relative;
+    bottom: 0.75vh;
+    left: 0.3vw;
+}
+#apiPrice{
+    color: black;
+    position: relative;
+    top: 6vh;
+    font-weight: 700;
+}

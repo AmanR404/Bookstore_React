@@ -1,0 +1,18 @@
+.inationBtn{
+    /* background-color: black; */
+    width: 4vw;
+    height: 5vh;
+    margin-left: 10vw;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.inationBtn:hover{
+    background-color: rgb(91, 89, 89);
+    cursor: pointer;
+}
+#pageInationBox{
+    margin-left: 17vw;
+    margin-top: 10vh;
+}

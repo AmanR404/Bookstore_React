@@ -1,0 +1,77 @@
+#orderFinished{
+    width: 50vw;
+    margin: auto;
+    margin-top: 6.4vh;
+    display: flex;
+    flex-direction: column;
+}
+#imag1{
+    width: 10vw;
+    height: 15vh;
+    margin: auto;
+}
+#imag2{
+    width: 8vw;
+    height: 10vh;
+    margin: auto;
+}
+#placedText{
+    font-weight: 650;
+    margin: auto;
+    color: #333232;
+    font-size: large;
+}
+#placedPara{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2vh;
+    color: #616060;
+    font-weight: 500;
+    margin-bottom: 6.5vh;
+}
+#contactSpan{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    position: relative;
+    right: 5vw;
+    background-color: #f7f4f4;
+    border: 0.8px solid rgb(174, 171, 171);
+    border-bottom: none;
+}
+#contact-details{
+    display: flex;
+    width: 60vw;
+    position: relative;
+    right: 5vw;
+    border: 0.8px solid rgb(174, 171, 171);
+}
+#span1, #span2, #span3{
+    padding: 1.5vh 3vw;
+    background-color: #f7f4f4;
+}
+#span3{
+    margin-right: 10vw;
+}
+#contactSpan1{
+    padding: 1.5vh 3vw;
+    border-right: 0.8px solid rgb(174, 171, 171);
+}
+#contactSpan2{
+    padding: 1.5vh 2vw;
+    border-right: 0.8px solid rgb(174, 171, 171);
+}
+#contactSpan3{
+    padding: 1.5vh 2vw;
+}
+.continueBtn{
+    background-color: #3371B5;
+    color: white;
+    border: 0.5px solid #3371B5;
+    border-radius: 2px;
+    padding: 1.2vh 2vw;
+    width: 16vw;
+    margin: auto;
+    margin-top: 3vh;
+}

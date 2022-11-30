@@ -1,0 +1,141 @@
+
+.middleBox{
+    display: flex;
+}
+.middleImgBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#img1{
+    width: 2vw;
+    height: 5vh;
+    margin-left: 14vw;
+    position: relative;
+    bottom: 80vh;
+}
+#img2{
+    width: 2vw;
+    height: 5vh;
+    margin-left: 14vw;
+    position: relative;
+    bottom: 79.5vh;
+}
+#home{
+    margin-left: 14vw;
+}
+.middleButtonBox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.3vw;
+}
+.middleButtonBox img{
+    height: 50vh;
+    width: 18.5vw;
+    border: 0.5px solid grey;
+    padding: 3vh 2.5vw;
+}
+.buttonBox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+#btn1{
+    width: 10.5vw;
+    height: 6vh;
+    padding-top: 0.7vh;
+    background-color: #A03037;
+    color: white;
+}
+#btn2{
+    width: 10.5vw;
+    height: 6vh;
+    padding-top: 0.7vh;
+    background-color: #333333;
+    color: white;
+    border-radius: 4px;
+}
+.lastBox{
+    display: flex;
+    flex-direction: column;
+}
+.lastPriceBox{
+    display: flex;
+    flex-direction: column;
+}
+.last2ndBox{
+    display: flex;
+    flex-direction: column;
+}
+.lastLastBox{
+    display: flex;
+    flex-direction: column;
+}
+.lastBox{
+    margin-left: 4.6vw;
+}
+.lastPriceBox h3{
+    font-size: x-large;
+    margin-bottom: 0vh;
+    position: relative;
+    bottom: 4vh;
+}
+#author{
+    font-size: large;
+    position: relative;
+    bottom: 4vh;
+}
+.star{
+    position: relative;
+    top: 0.75vh;
+}
+#rating{
+    background-color: #388E3C;
+    color: white;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+    width: 4.4vw;
+    margin-top: 2vh;
+    height: 4.3vh;
+    border: 0px solid grey;
+    border-radius: 3px;
+    position: relative;
+    bottom: 4vh;
+}
+#rs{
+    font-size: xx-large;
+    font-weight: 500;
+}
+.last2ndBox span{
+    line-height: 0%;
+    margin-top: 6vh;
+}
+.last2ndBox p{
+    width: 75%;
+    text-align: justify;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+.feedback input{
+    height: 8vh;
+    width: 75%;
+}
+.feedback button{
+    width: 11%;
+    margin-left: 65%;
+    margin-top: 2vh;
+    background-color: #3371B5;
+    color: white;
+    border: 0px solid #3371B5;
+    border-radius: 4px;
+    height: 3.5vh;
+}
+#remove2{
+    margin-left: .5vw;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+}

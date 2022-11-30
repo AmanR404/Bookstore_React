@@ -1,0 +1,41 @@
+#wishlistTag{
+    margin-left: 14vw;
+    position: relative;
+    top: 3vh;
+}
+#wishText{
+    font-weight: 630;
+    position: relative;
+    top: 3vh;
+}
+.wishlist{
+    width: 70vw;
+    height: 55vh;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+.wishlistDetails{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+.wishlistDetails img{
+    width: 5vw;
+    height: 14vh;
+    margin-top: 2.5vh;
+    margin-left: 2vw;
+}
+#wishlText{
+    background-color: #E4E4E4;
+    padding: 2vh 3vw;
+    margin-top: 2vh;
+}
+#wishlistItem{
+    display: flex;
+}
+.bin{
+    margin-top: 4vh;
+    margin-right: 3vw;
+}
