@@ -37,10 +37,22 @@ function Signup() {
 
 
 const borderHandler = ()=>{
-  console.log('BorderHandler here')
-  document.querySelector('#emailField').style.border = '1px solid red'
-  document.querySelector('#emailField').style.borderRadius = '4px'
-
+  if(!email){
+      document.querySelector('.emailField').style.border = '1px solid red'
+      document.querySelector('.emailField').style.borderRadius = '4px'
+    setTimeout(() => {
+      document.querySelector('.emailField').style.border = 'none'
+      document.querySelector('.emailField').style.borderRadius = 'none'
+    }, 4000);
+  }
+  else if(!password){
+      document.querySelector('.passField').style.border = '1px solid red'
+      document.querySelector('.passField').style.borderRadius = '4px'
+    setTimeout(() => {
+      document.querySelector('.passField').style.border = 'none'
+      document.querySelector('.passField').style.borderRadius = 'none'
+    }, 4000);
+  }
 }
     // API 
 
@@ -56,7 +68,6 @@ const borderHandler = ()=>{
         borderHandler();
       }
   }
-
 
 
   const [login, setLogin] = useState(false)
@@ -83,8 +94,8 @@ const borderHandler = ()=>{
                 <span onClick={signupSwitcher} className='hover'>SIGNUP</span>
               </div>
               <form className='form'>
-              <TextField id="outlined-basic emailField" size='small' value={email} label="Email id" variant="outlined" onChange={handleEmailChange} />
-              <TextField id="outlined-basic passField" size='small' value={password} label="Password" variant="outlined" onChange={handlePasswordChange} />
+              <TextField id="outlined-basic" className='emailField' size='small' value={email} label="Email id" variant="outlined" onChange={handleEmailChange} />
+              <TextField id="outlined-basic" className='passField' size='small' value={password} label="Password" variant="outlined" onChange={handlePasswordChange} />
               <span id='forgot' onClick={()=> navigate('./ForgotPage')}>Forgot Password?</span>
               <button id='login' className='hover' onClick={loginAccess}>Login</button>
               <div id='orElem'>

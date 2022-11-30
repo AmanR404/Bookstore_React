@@ -1,5 +1,5 @@
 .footerContainer{
-    min-height: 100vh;
+    min-height: 20vh;
     display: flex;
     flex-direction: column;
 }
@@ -9,8 +9,8 @@ footer{
     background-color: #2E1D1E;
     color: white;
     margin-top: auto;
-    position: relative;
-    top: 20vh;
+    /* position: relative;
+    top: 20vh; */
 
 }
 footer span{

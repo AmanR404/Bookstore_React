@@ -1,5 +1,5 @@
 #tag{
-    margin-left: 13vw;
+    margin-left: 9.2vw;
     margin-top: 3vh;
 }
 #cartText{
@@ -7,7 +7,7 @@
 }
 .mainBox{
     width: 52vw;
-    margin-left: 15vw;
+    margin-left: 9vw;
     margin-top: 3.5vh;
     /* height: 38%; */
     display: flex;
@@ -24,7 +24,7 @@
 }
 .cartData{
     margin: 2vh 3vw;
-    height: 85vh;
+    /* height: 85vh; */
 }
 .bookPayDetails{
     display: flex;

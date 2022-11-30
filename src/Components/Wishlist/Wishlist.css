@@ -1,5 +1,5 @@
 #wishlistTag{
-    margin-left: 14vw;
+    margin-left: 9.3vw;
     position: relative;
     top: 3vh;
 }
@@ -9,9 +9,9 @@
     top: 3vh;
 }
 .wishlist{
-    width: 70vw;
-    height: 55vh;
-    margin: auto;
+    width: 77vw;
+    height: 63.4vh;
+    margin-left: 10vw;
     margin-top: 5vh;
     display: flex;
     flex-direction: column;

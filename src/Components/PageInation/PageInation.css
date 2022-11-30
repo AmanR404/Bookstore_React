@@ -1,9 +1,9 @@
 .inationBtn{
     /* background-color: black; */
-    width: 4vw;
+    width: 3.2vw;
     height: 5vh;
-    margin-left: 10vw;
-    background-color: black;
+    margin-left: 3.2vw;
+    background-color: #7b1e24;
     color: white;
     border: none;
     border-radius: 5px;
@@ -13,6 +13,6 @@
     cursor: pointer;
 }
 #pageInationBox{
-    margin-left: 17vw;
+    margin-left: 34vw;
     margin-top: 10vh;
 }

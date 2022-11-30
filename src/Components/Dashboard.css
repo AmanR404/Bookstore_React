@@ -1,8 +1,8 @@
 #innerTagline{
     display: flex;
     justify-content: space-between;
-    margin: 3vh 3vw;
-    margin-right: 6.5vw;
+    margin: 3vh 8vw;
+    margin-right: 12.5vw;
 }
 #innerTagline span{
     font-weight: 600;
